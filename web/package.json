@@ -10,6 +10,7 @@
         "prettier": "prettier --write src/**/*{.tsx,.ts}"
     },
     "dependencies": {
+        "@phosphor-icons/react": "^2.0.5",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },

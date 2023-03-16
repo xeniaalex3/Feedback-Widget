@@ -1,9 +1,9 @@
-function App() {
+import { Widget } from '../Widget/Widget';
+
+export function App() {
   return (
     <div>
-     <h1>hello</h1>
+     <Widget/>
     </div>
   );
 }
-
-export default App;
