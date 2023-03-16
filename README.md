@@ -2,6 +2,10 @@
 
 ## Description
 
+<p align="center">
+<img src="./assets/img/layout.png" alt="Next Level Week feedback Logo"/></p>
+
+
 ## Stack and tools
 * [Node.js](https://nodejs.org/en/)
 * [Prisma](https://www.prisma.io/)
