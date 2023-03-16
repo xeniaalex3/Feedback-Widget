@@ -14,3 +14,4 @@
 * [Expo](https://expo.dev/)
 * [Figma](https://www.figma.com/)
 * [Radix UI](https://www.radix-ui.com/)
+* [Tailwind-CSS](https://tailwindcss.com/)
