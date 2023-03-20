@@ -1,9 +1,11 @@
-import { Widget } from '../Widget/Widget';
+import Widget  from '../Widget/Widget';
 
-export function App() {
+function App() {
   return (
     <div>
      <Widget/>
     </div>
   );
 }
+
+export default App;
