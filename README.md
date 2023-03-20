@@ -3,7 +3,7 @@
 ## Description
 
 <p align="center">
-<img src="./assets/img/layout.png" alt="Next Level Week feedback Logo"/></p>
+<img width='80%' height='80%' src="./assets/img/layout.png" alt="Next Level Week feedback Logo"/></p>
 
 
 ## Stack and tools
