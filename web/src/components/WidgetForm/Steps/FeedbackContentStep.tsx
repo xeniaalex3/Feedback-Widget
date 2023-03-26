@@ -27,9 +27,14 @@ function FeedbackContentStep({feedbackType, onFeedbackRestartRequested}: Feedbac
      <CloseButton />
    </header>
 
-   <div className="flex py-8 gap-2 w-auto">
-hello hello hello hello
-</div>
+ <form className='my-4 w-full'>
+<textarea 
+className="min-w-[302px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-100 border-zinc-500 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none resize-none"
+placeholder='Tell us in detail what is happening...'
+>
+
+</textarea>
+ </form>
  </>
   )
 }
