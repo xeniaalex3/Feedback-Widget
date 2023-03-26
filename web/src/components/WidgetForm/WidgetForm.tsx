@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 // import component
-import CloseButton from '../CloseButton/CloseButton'
 import FeedbackTypeStep from './Steps/FeedbackTypeStep';
 import FeedbackContentStep from './Steps/FeedbackContentStep';
 // import images svg
@@ -39,19 +38,22 @@ export type FeedbackType = keyof typeof feedbackTypes;
 function WidgetForm() {
 const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null);
 
+function handleRestartFeedback(){
+  setFeedbackType(null);
+}
   return (
     <div className="bg-zinc-900 p-4 relative rounded-2xl mb-4 flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
-      <header className='text-center'>
-        <span className="text-xl leading-6">Leave your feedback</span>
-        <CloseButton />
-      </header>
+     
      {!feedbackType ? (
       <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType} />
      ) : (
-    <FeedbackContentStep/>
+    <FeedbackContentStep 
+    feedbackType={feedbackType}
+    onFeedbackRestartRequested={handleRestartFeedback}
+    />
      )}
     </div>
   )
 }
 
-export default WidgetForm
+export default WidgetForm;
