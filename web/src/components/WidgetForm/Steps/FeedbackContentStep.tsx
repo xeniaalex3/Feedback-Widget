@@ -9,9 +9,10 @@ import ScreenshotButton from '../../ScreenshotButton/ScreenshotButton';
 interface FeedbackContentStepProps {
 feedbackType : FeedbackType;
 onFeedbackRestartRequested: () => void;
+onFeedbackSent: () => void;
 }
 
-function FeedbackContentStep({feedbackType, onFeedbackRestartRequested}: FeedbackContentStepProps){
+function FeedbackContentStep({feedbackType, onFeedbackRestartRequested, onFeedbackSent}: FeedbackContentStepProps){
 const [screenshot, setScreenshot] = useState<string | null>(null);
 const [comment, setComment] = useState('');
 
@@ -19,9 +20,12 @@ const [comment, setComment] = useState('');
 
   function handleSubmitFeedback(event: FormEvent){
     event.preventDefault();
+
 console.log({
   screenshot, comment
 })
+
+onFeedbackSent();
   }
 
 
