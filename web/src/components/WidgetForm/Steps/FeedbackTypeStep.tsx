@@ -1,13 +1,21 @@
 import { feedbackTypes, FeedbackType } from "../WidgetForm";
+//import component
+import CloseButton from "../../CloseButton/CloseButton";
 
+// props
 interface FeedbackTypeStepProps {
   onFeedbackTypeChanged: (type: FeedbackType) => void;
 }
 
 function FeedbackTypeStep({onFeedbackTypeChanged}: FeedbackTypeStepProps){
- 
   return (
-    <div className="flex py-8 gap-2 w-full">
+    <>
+       <header className='text-center'>
+        <span className="text-xl leading-6">Leave your feedback</span>
+        <CloseButton />
+      </header>
+
+      <div className="flex py-8 gap-2 w-full">
     {Object.entries(feedbackTypes).map(([key, value]) => {
       return (
         <button 
@@ -22,6 +30,8 @@ function FeedbackTypeStep({onFeedbackTypeChanged}: FeedbackTypeStepProps){
       )
     })}
   </div>
+    </>
+ 
   )
 }
 
