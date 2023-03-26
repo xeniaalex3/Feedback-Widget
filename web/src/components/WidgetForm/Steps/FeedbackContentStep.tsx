@@ -1,6 +1,10 @@
+import { useState } from 'react';
+
 import { ArrowLeft, Camera } from 'phosphor-react';
-import CloseButton from "../../CloseButton/CloseButton";
 import { FeedbackType, feedbackTypes } from "../WidgetForm";
+
+import CloseButton from "../../CloseButton/CloseButton";
+import ScreenshotButton from '../../ScreenshotButton/ScreenshotButton';
 
 interface FeedbackContentStepProps {
 feedbackType : FeedbackType;
@@ -8,6 +12,7 @@ onFeedbackRestartRequested: () => void;
 }
 
 function FeedbackContentStep({feedbackType, onFeedbackRestartRequested}: FeedbackContentStepProps){
+  const [screenshot, setScreenshot] = useState<string | null>();
   const feedbackTypeInfo = feedbackTypes[feedbackType];
 
   return (
@@ -35,13 +40,10 @@ placeholder='Tell us in detail what is happening...'
 </textarea>
 
 <footer className='flex gap-2 mt-2'>
-
-  <button
-  type='button'
-  className='p-2 bg-zinc-800 rounded-md border-transparent hover:bg-zinc-700 transition-colors'
-  >
-   <Camera className='w-6 h-6 text-zinc-400'/>
-  </button>
+  <ScreenshotButton
+  screenshot={screenshot}
+  onScreenshotTook={setScreenshot}
+  />
 
   <button
   type='submit'
