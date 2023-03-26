@@ -59,7 +59,7 @@ const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null);
        })}
      </div>
      ) : (
-      <p>hello world</p>
+    
      )}
     </div>
   )
