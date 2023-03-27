@@ -21,10 +21,13 @@ The project is called Feedback Widget. It is a tool where the user can leave fee
 
 ```
 # Clone the repository
-$ git clone 
+$ git clone git@github.com:xeniaalex3/Feedback-Widget.git
 
 # Access the project folder at the command prompt
-$ cd 
+$ cd Feedback-Widget
+
+# Access the web version of the project 
+$ cd web
 
 # Install the dependencies
 $ npm install
