@@ -16,3 +16,20 @@ The project is called Feedback Widget. It is a tool where the user can leave fee
 * [Expo](https://expo.dev/)
 * [Figma](https://www.figma.com/)
 * [Tailwind-CSS](https://tailwindcss.com/)
+
+## Install the project 
+
+```
+# Clone the repository
+$ git clone 
+
+# Access the project folder at the command prompt
+$ cd 
+
+# Install the dependencies
+$ npm install
+
+# Run the script 
+$ npm run dev 
+
+```
