@@ -16,6 +16,7 @@ The project is called Feedback Widget. It is a tool where the user can leave fee
 * [Expo](https://expo.dev/)
 * [Figma](https://www.figma.com/)
 * [Tailwind-CSS](https://tailwindcss.com/)
+* [Jest](https://jestjs.io/fr/)
 
 ## Install the project 
 
