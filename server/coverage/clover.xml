@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1680020582686" clover="3.2.0">
-  <project timestamp="1680020582686" name="All files">
+<coverage generated="1680021335505" clover="3.2.0">
+  <project timestamp="1680021335505" name="All files">
     <metrics statements="47" coveredstatements="47" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3" elements="58" coveredelements="58" complexity="0" loc="47" ncloc="47" packages="1" files="1" classes="1"/>
     <file name="submit-feedback-use-case.ts" path="C:\Users\xenia\Documents\Feedback-Widget\server\src\use-cases\submit-feedback-use-case.ts">
       <metrics statements="47" coveredstatements="47" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
