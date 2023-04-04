@@ -10,18 +10,22 @@
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
+    "@expo/webpack-config": "^18.0.1",
     "expo": "~48.0.9",
     "expo-app-loading": "^2.1.1",
     "expo-font": "~11.1.1",
     "expo-status-bar": "~1.4.4",
     "phosphor-react-native": "^1.1.2",
     "react": "18.2.0",
-    "react-native": "0.71.6"
+    "react-native": "^0.71.6",
+    "react-native-svg": "13.4.0",
+    "react-native-web": "~0.18.10"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.0.14",
     "@types/react-native": "^0.71.5",
+    "metro": "^0.76.1",
     "typescript": "^4.9.4"
   },
   "private": true
