@@ -1,12 +1,12 @@
-import  React, { useRef } from 'react'
-import { TouchableOpacity } from 'react-native'
-import { ChatTeardropDots } from 'phosphor-react-native'
-import { gestureHandlerRootHOC } from 'react-native-gesture-handler'
+import  React, { useRef } from 'react';
+import { TouchableOpacity } from 'react-native';
+import { ChatTeardropDots } from 'phosphor-react-native';
+import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 
-import BottomSheet from '@gorhom/bottom-sheet'
+import BottomSheet from '@gorhom/bottom-sheet';
 
-import { styles } from './styles'
-import { theme } from '../../theme'
+import { styles } from './styles';
+import { theme } from '../../theme';
 
 
 function Widget() {
@@ -41,4 +41,4 @@ function handleOpen(){
   )
 }
 
-export default gestureHandlerRootHOC(Widget);
+export default gestureHandlerRootHOC(Widget)
