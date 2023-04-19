@@ -40,6 +40,7 @@ if(screenshot && !screenshot.startsWith('data:image/png;base64')) {
         `<div style="font-family: sans-serif; font-size: 16px;">`,
         `<p>Type of feedback : ${type}</p>`,
         `<p>Comment :  ${comment}</p>`,
+        screenshot ? `<img src="${screenshot}" />` : null,
         `</div>`
       ].join('\n')
     })
