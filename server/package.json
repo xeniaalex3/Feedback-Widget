@@ -3,9 +3,12 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "engines": {
+        "node": "18"
+    },
     "scripts": {
         "test": "jest",
-        "build": "tsc",
+        "build": "tsup src",
         "start": "node dist/server.js",
         "dev": "ts-node-dev src/server.ts"
     },
