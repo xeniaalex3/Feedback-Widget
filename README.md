@@ -3,6 +3,8 @@
 ## Description
 The project is called Feedback Widget. It is a tool where the user can leave feedback in case of a issue, an idea or other, this tool allows the user to describe his issue/idea/other along with the screenshot functionality. 
 
+link: https://feedback-widget-xi-snowy.vercel.app
+
 
 <p align="center">
 <img width='80%' height='80%' src="./assets/img/layout.png" alt="Next Level Week feedback Logo"/></p>
