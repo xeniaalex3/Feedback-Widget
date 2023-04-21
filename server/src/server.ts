@@ -8,7 +8,8 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
+const port = process.env.PORT ? Number(process.env.PORT) : 3333;
 
-app.listen(process.env.PORT || 3333, () => {
-  console.log('http server running');
-})
+app.listen(port, '0.0.0.0', () => {
+  console.log('server running');
+});
