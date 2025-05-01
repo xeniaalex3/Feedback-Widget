@@ -1,25 +1,42 @@
 # Feedback-Widget
 
-## Description
 The project is called Feedback Widget. It is a tool where the user can leave feedback in case of a issue, an idea or other, this tool allows the user to describe his issue/idea/other along with the screenshot functionality. 
 
-link: https://feedback-widget-xi-snowy.vercel.app
+🔗 Live demo:  [feedback-widget](https://feedback-widget-xi-snowy.vercel.app)
 
 
 <p align="center">
 <img width='80%' height='80%' src="./assets/img/layout.png" alt="Next Level Week feedback Logo"/></p>
 
 
-## Stack and tools
-* [Node.js](https://nodejs.org/en/)
-* [Prisma](https://www.prisma.io/)
-* [React](https://reactjs.org/)
-* [TypeScript](https://typescript.org/)
-* [Figma](https://www.figma.com/)
-* [Tailwind-CSS](https://tailwindcss.com/)
-* [Jest](https://jestjs.io/fr/)
+## 🚀 Technologies
 
-## Install the project 
+- ⚛️ React.js
+- 🟦 TypeScript
+- 🎨 Tailwind CSS
+- 🌐 Node.js
+- 🚂 Express
+- 🧬 Prisma
+- 🛢️ PostgreSQL
+- 🧪 Jest
+
+
+
+## 🧰 Features
+- Accessible and styled forms
+- Screenshot capture functionality
+- Feedback submission system
+- Modern UI components
+- HTTP requests
+- Custom scrollbars
+- Icon system
+- Feedback API
+- Sends feedback via email
+- Database integration
+- Unit tests
+
+
+## 📦 Install the project 
 
 ```
 # Clone the repository
